@@ -272,8 +272,8 @@
     <footer>
       <div class="footer-left">
         <nav>
-          <a class="transition4" href="index.html">Shin Miyake</a>
-          <ul class="hide-mobile transition4">
+          <a href="index.html">Shin Miyake</a>
+          <ul class="hide-mobile">
             <li><a href="#">My work</a></li>
             <li><a href="#">My skills</a></li>
             <li><a href="#">Contact me</a></li>
@@ -281,7 +281,7 @@
         </nav>
 
         <div class="social-header">
-          <ul class="transition4">
+          <ul>
             <li>
               <a href="#"><img src="images/behance.svg" alt="Behance" /></a>
             </li>
@@ -444,21 +444,21 @@
         stagger: 0.6,
       });
 
-      gsap.from('.transition4', {
-        scrollTrigger: {
-          trigger: '.contact-me',
-          start: 'center center',
-        },
-        y: 50,
-        opacity: 0,
-        duration: 1.2,
-        stagger: 0.6,
-      });
+      // gsap.from('.transition4', {
+      //   scrollTrigger: {
+      //     trigger: '.contact-me',
+      //     start: 'center bottom',
+      //   },
+      //   y: 50,
+      //   opacity: 0,
+      //   duration: 1.2,
+      //   stagger: 0.6,
+      // });
 
       gsap.from('.square-anim2', {
         scrollTrigger: {
           trigger: '.contact-me',
-          start: 'center center',
+          start: 'center bottom',
         },
         stagger: 0.1,
         scale: 0.1,
