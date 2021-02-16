@@ -280,8 +280,9 @@ footer .footer-design {
   right: 0;
   text-align: left;
   background-color: rgba(255, 255, 255, 0.253);
+  backdrop-filter: blur(7px);
   -webkit-backdrop-filter: blur(7px);
-          backdrop-filter: blur(7px);
+   
   height: 0;
   width: 100%;
   z-index: 7;
